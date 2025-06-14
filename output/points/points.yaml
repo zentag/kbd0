@@ -1,0 +1,2912 @@
+matrix_outer_bottom:
+    x: 0
+    'y': 0
+    r: -15
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: outer_bottom
+        name: matrix_outer_bottom
+        zone:
+            columns:
+                outer: null
+                pinky: null
+                ring:
+                    key:
+                        splay: 0
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 12
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            rows: {}
+            key: {}
+            name: outer
+        row: bottom
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 0
+            - 0
+matrix_outer_home:
+    x: 4.9175619
+    'y': 18.3525907
+    r: -15
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: outer_home
+        name: matrix_outer_home
+        zone:
+            columns:
+                outer: null
+                pinky: null
+                ring:
+                    key:
+                        splay: 0
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 12
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            rows: {}
+            key: {}
+            name: outer
+        row: home
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 10
+            - 0
+matrix_outer_top:
+    x: 9.8351238
+    'y': 36.7051815
+    r: -15
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: outer_top
+        name: matrix_outer_top
+        zone:
+            columns:
+                outer: null
+                pinky: null
+                ring:
+                    key:
+                        splay: 0
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 12
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            rows: {}
+            key: {}
+            name: outer
+        row: top
+        mirrored: false
+        bind:
+            - 0
+            - 0
+            - 10
+            - 0
+matrix_pinky_bottom:
+    x: 18.3525907
+    'y': -4.9175619
+    r: -15
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: pinky_bottom
+        name: matrix_pinky_bottom
+        zone:
+            columns:
+                outer: null
+                pinky: null
+                ring:
+                    key:
+                        splay: 0
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 12
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            rows: {}
+            key: {}
+            name: pinky
+        row: bottom
+        mirrored: false
+        bind:
+            - 10
+            - 0
+            - 0
+            - 0
+matrix_pinky_home:
+    x: 23.2701526
+    'y': 13.4350288
+    r: -15
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: pinky_home
+        name: matrix_pinky_home
+        zone:
+            columns:
+                outer: null
+                pinky: null
+                ring:
+                    key:
+                        splay: 0
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 12
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            rows: {}
+            key: {}
+            name: pinky
+        row: home
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_pinky_top:
+    x: 28.1877145
+    'y': 31.7876196
+    r: -15
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: pinky_top
+        name: matrix_pinky_top
+        zone:
+            columns:
+                outer: null
+                pinky: null
+                ring:
+                    key:
+                        splay: 0
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 12
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            rows: {}
+            key: {}
+            name: pinky
+        row: top
+        mirrored: false
+        bind:
+            - 0
+            - 10
+            - 10
+            - 10
+matrix_ring_bottom:
+    x: 39.8110099
+    'y': 1.7559862
+    r: -15
+    meta:
+        stagger: 12
+        spread: 19
+        splay: 0
+        origin:
+            - -12
+            - -19
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: ring_bottom
+        name: matrix_ring_bottom
+        zone:
+            columns:
+                outer: null
+                pinky: null
+                ring:
+                    key:
+                        splay: 0
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 12
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            key:
+                splay: 0
+                origin:
+                    - -12
+                    - -19
+                stagger: 12
+            rows: {}
+            name: ring
+        row: bottom
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 0
+            - 10
+matrix_ring_home:
+    x: 44.7285718
+    'y': 20.1085769
+    r: -15
+    meta:
+        stagger: 12
+        spread: 19
+        splay: 0
+        origin:
+            - -12
+            - -19
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: ring_home
+        name: matrix_ring_home
+        zone:
+            columns:
+                outer: null
+                pinky: null
+                ring:
+                    key:
+                        splay: 0
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 12
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            key:
+                splay: 0
+                origin:
+                    - -12
+                    - -19
+                stagger: 12
+            rows: {}
+            name: ring
+        row: home
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_ring_top:
+    x: 49.6461337
+    'y': 38.4611677
+    r: -15
+    meta:
+        stagger: 12
+        spread: 19
+        splay: 0
+        origin:
+            - -12
+            - -19
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: ring_top
+        name: matrix_ring_top
+        zone:
+            columns:
+                outer: null
+                pinky: null
+                ring:
+                    key:
+                        splay: 0
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 12
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            key:
+                splay: 0
+                origin:
+                    - -12
+                    - -19
+                stagger: 12
+            rows: {}
+            name: ring
+        row: top
+        mirrored: false
+        bind:
+            - 0
+            - 0
+            - 10
+            - 0
+matrix_middle_bottom:
+    x: 59.4576959
+    'y': 1.6680535
+    r: -15
+    meta:
+        stagger: 5
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: middle_bottom
+        name: matrix_middle_bottom
+        zone:
+            columns:
+                outer: null
+                pinky: null
+                ring:
+                    key:
+                        splay: 0
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 12
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            key:
+                stagger: 5
+            rows: {}
+            name: middle
+        row: bottom
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 0
+            - 0
+matrix_middle_home:
+    x: 64.3752578
+    'y': 20.0206442
+    r: -15
+    meta:
+        stagger: 5
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: middle_home
+        name: matrix_middle_home
+        zone:
+            columns:
+                outer: null
+                pinky: null
+                ring:
+                    key:
+                        splay: 0
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 12
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            key:
+                stagger: 5
+            rows: {}
+            name: middle
+        row: home
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_middle_top:
+    x: 69.2928197
+    'y': 38.3732349
+    r: -15
+    meta:
+        stagger: 5
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: middle_top
+        name: matrix_middle_top
+        zone:
+            columns:
+                outer: null
+                pinky: null
+                ring:
+                    key:
+                        splay: 0
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 12
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            key:
+                stagger: 5
+            rows: {}
+            name: middle
+        row: top
+        mirrored: false
+        bind:
+            - 0
+            - 0
+            - 10
+            - 10
+matrix_index_bottom:
+    x: 76.2573723
+    'y': -9.0450634
+    r: -15
+    meta:
+        stagger: -6
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: index_bottom
+        name: matrix_index_bottom
+        zone:
+            columns:
+                outer: null
+                pinky: null
+                ring:
+                    key:
+                        splay: 0
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 12
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            key:
+                stagger: -6
+            rows: {}
+            name: index
+        row: bottom
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 0
+            - 0
+matrix_index_home:
+    x: 81.1749342
+    'y': 9.3075274
+    r: -15
+    meta:
+        stagger: -6
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: index_home
+        name: matrix_index_home
+        zone:
+            columns:
+                outer: null
+                pinky: null
+                ring:
+                    key:
+                        splay: 0
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 12
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            key:
+                stagger: -6
+            rows: {}
+            name: index
+        row: home
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_index_top:
+    x: 86.0924961
+    'y': 27.6601181
+    r: -15
+    meta:
+        stagger: -6
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: index_top
+        name: matrix_index_top
+        zone:
+            columns:
+                outer: null
+                pinky: null
+                ring:
+                    key:
+                        splay: 0
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 12
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            key:
+                stagger: -6
+            rows: {}
+            name: index
+        row: top
+        mirrored: false
+        bind:
+            - 0
+            - 0
+            - 10
+            - 10
+matrix_inner_bottom:
+    x: 94.6099629
+    'y': -13.9626252
+    r: -15
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: inner_bottom
+        name: matrix_inner_bottom
+        zone:
+            columns:
+                outer: null
+                pinky: null
+                ring:
+                    key:
+                        splay: 0
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 12
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            key:
+                stagger: 0
+            rows: {}
+            name: inner
+        row: bottom
+        mirrored: false
+        bind:
+            - 10
+            - 0
+            - 0
+            - 0
+matrix_inner_home:
+    x: 99.5275248
+    'y': 4.3899655
+    r: -15
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: inner_home
+        name: matrix_inner_home
+        zone:
+            columns:
+                outer: null
+                pinky: null
+                ring:
+                    key:
+                        splay: 0
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 12
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            key:
+                stagger: 0
+            rows: {}
+            name: inner
+        row: home
+        mirrored: false
+        bind:
+            - 10
+            - 0
+            - 10
+            - 10
+matrix_inner_top:
+    x: 104.4450867
+    'y': 22.7425562
+    r: -15
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: inner_top
+        name: matrix_inner_top
+        zone:
+            columns:
+                outer: null
+                pinky: null
+                ring:
+                    key:
+                        splay: 0
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 12
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            key:
+                stagger: 0
+            rows: {}
+            name: inner
+        row: top
+        mirrored: false
+        bind:
+            - 0
+            - 0
+            - 10
+            - 10
+thumbfan_near_thumb:
+    x: 82.9309203
+    'y': -30.5034826
+    r: -15
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: near_thumb
+        name: thumbfan_near_thumb
+        zone:
+            columns:
+                near: null
+                home:
+                    key:
+                        spread: 21.25
+                        splay: -28
+                        origin:
+                            - -11.75
+                            - -9
+                    rows: {}
+                    name: home
+                far:
+                    key:
+                        spread: 21.25
+                        splay: -28
+                        origin:
+                            - -9.5
+                            - -9
+                    rows: {}
+                    name: far
+            rows:
+                thumb: {}
+            name: thumbfan
+        col:
+            rows: {}
+            key: {}
+            name: near
+        row: thumb
+        mirrored: false
+        bind:
+            - 0
+            - 0
+            - 0
+            - 0
+thumbfan_home_thumb:
+    x: 104.5092353
+    'y': -43.0868934
+    r: -43
+    meta:
+        stagger: 0
+        spread: 21.25
+        splay: -28
+        origin:
+            - -11.75
+            - -9
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: home_thumb
+        name: thumbfan_home_thumb
+        zone:
+            columns:
+                near: null
+                home:
+                    key:
+                        spread: 21.25
+                        splay: -28
+                        origin:
+                            - -11.75
+                            - -9
+                    rows: {}
+                    name: home
+                far:
+                    key:
+                        spread: 21.25
+                        splay: -28
+                        origin:
+                            - -9.5
+                            - -9
+                    rows: {}
+                    name: far
+            rows:
+                thumb: {}
+            name: thumbfan
+        col:
+            key:
+                spread: 21.25
+                splay: -28
+                origin:
+                    - -11.75
+                    - -9
+            rows: {}
+            name: home
+        row: thumb
+        mirrored: false
+        bind:
+            - 0
+            - 0
+            - 0
+            - 0
+thumbfan_far_thumb:
+    x: 118.5672209
+    'y': -63.7348706
+    r: -71
+    meta:
+        stagger: 0
+        spread: 21.25
+        splay: -28
+        origin:
+            - -9.5
+            - -9
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: far_thumb
+        name: thumbfan_far_thumb
+        zone:
+            columns:
+                near: null
+                home:
+                    key:
+                        spread: 21.25
+                        splay: -28
+                        origin:
+                            - -11.75
+                            - -9
+                    rows: {}
+                    name: home
+                far:
+                    key:
+                        spread: 21.25
+                        splay: -28
+                        origin:
+                            - -9.5
+                            - -9
+                    rows: {}
+                    name: far
+            rows:
+                thumb: {}
+            name: thumbfan
+        col:
+            key:
+                spread: 21.25
+                splay: -28
+                origin:
+                    - -9.5
+                    - -9
+            rows: {}
+            name: far
+        row: thumb
+        mirrored: false
+        bind:
+            - 0
+            - 0
+            - 0
+            - 0
+mirror_matrix_outer_bottom:
+    x: 270.293283
+    'y': 0
+    r: 15
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_outer_bottom
+        name: mirror_matrix_outer_bottom
+        zone:
+            columns:
+                outer: null
+                pinky: null
+                ring:
+                    key:
+                        splay: 0
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 12
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            rows: {}
+            key: {}
+            name: outer
+        row: bottom
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 0
+            - 0
+mirror_matrix_outer_home:
+    x: 265.37572109999996
+    'y': 18.3525907
+    r: 15
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_outer_home
+        name: mirror_matrix_outer_home
+        zone:
+            columns:
+                outer: null
+                pinky: null
+                ring:
+                    key:
+                        splay: 0
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 12
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            rows: {}
+            key: {}
+            name: outer
+        row: home
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 10
+            - 0
+mirror_matrix_outer_top:
+    x: 260.45815919999995
+    'y': 36.7051815
+    r: 15
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_outer_top
+        name: mirror_matrix_outer_top
+        zone:
+            columns:
+                outer: null
+                pinky: null
+                ring:
+                    key:
+                        splay: 0
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 12
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            rows: {}
+            key: {}
+            name: outer
+        row: top
+        mirrored: true
+        bind:
+            - 0
+            - 0
+            - 10
+            - 0
+mirror_matrix_pinky_bottom:
+    x: 251.94069229999997
+    'y': -4.9175619
+    r: 15
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_pinky_bottom
+        name: mirror_matrix_pinky_bottom
+        zone:
+            columns:
+                outer: null
+                pinky: null
+                ring:
+                    key:
+                        splay: 0
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 12
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            rows: {}
+            key: {}
+            name: pinky
+        row: bottom
+        mirrored: true
+        bind:
+            - 10
+            - 0
+            - 0
+            - 0
+mirror_matrix_pinky_home:
+    x: 247.02313039999999
+    'y': 13.4350288
+    r: 15
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_pinky_home
+        name: mirror_matrix_pinky_home
+        zone:
+            columns:
+                outer: null
+                pinky: null
+                ring:
+                    key:
+                        splay: 0
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 12
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            rows: {}
+            key: {}
+            name: pinky
+        row: home
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+mirror_matrix_pinky_top:
+    x: 242.10556849999998
+    'y': 31.7876196
+    r: 15
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_pinky_top
+        name: mirror_matrix_pinky_top
+        zone:
+            columns:
+                outer: null
+                pinky: null
+                ring:
+                    key:
+                        splay: 0
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 12
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            rows: {}
+            key: {}
+            name: pinky
+        row: top
+        mirrored: true
+        bind:
+            - 0
+            - 10
+            - 10
+            - 10
+mirror_matrix_ring_bottom:
+    x: 230.4822731
+    'y': 1.7559862
+    r: 15
+    meta:
+        stagger: 12
+        spread: 19
+        splay: 0
+        origin:
+            - -12
+            - -19
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_ring_bottom
+        name: mirror_matrix_ring_bottom
+        zone:
+            columns:
+                outer: null
+                pinky: null
+                ring:
+                    key:
+                        splay: 0
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 12
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            key:
+                splay: 0
+                origin:
+                    - -12
+                    - -19
+                stagger: 12
+            rows: {}
+            name: ring
+        row: bottom
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 0
+            - 10
+mirror_matrix_ring_home:
+    x: 225.56471119999998
+    'y': 20.1085769
+    r: 15
+    meta:
+        stagger: 12
+        spread: 19
+        splay: 0
+        origin:
+            - -12
+            - -19
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_ring_home
+        name: mirror_matrix_ring_home
+        zone:
+            columns:
+                outer: null
+                pinky: null
+                ring:
+                    key:
+                        splay: 0
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 12
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            key:
+                splay: 0
+                origin:
+                    - -12
+                    - -19
+                stagger: 12
+            rows: {}
+            name: ring
+        row: home
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+mirror_matrix_ring_top:
+    x: 220.64714929999997
+    'y': 38.4611677
+    r: 15
+    meta:
+        stagger: 12
+        spread: 19
+        splay: 0
+        origin:
+            - -12
+            - -19
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_ring_top
+        name: mirror_matrix_ring_top
+        zone:
+            columns:
+                outer: null
+                pinky: null
+                ring:
+                    key:
+                        splay: 0
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 12
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            key:
+                splay: 0
+                origin:
+                    - -12
+                    - -19
+                stagger: 12
+            rows: {}
+            name: ring
+        row: top
+        mirrored: true
+        bind:
+            - 0
+            - 0
+            - 10
+            - 0
+mirror_matrix_middle_bottom:
+    x: 210.83558709999997
+    'y': 1.6680535
+    r: 15
+    meta:
+        stagger: 5
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_middle_bottom
+        name: mirror_matrix_middle_bottom
+        zone:
+            columns:
+                outer: null
+                pinky: null
+                ring:
+                    key:
+                        splay: 0
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 12
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            key:
+                stagger: 5
+            rows: {}
+            name: middle
+        row: bottom
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 0
+            - 0
+mirror_matrix_middle_home:
+    x: 205.9180252
+    'y': 20.0206442
+    r: 15
+    meta:
+        stagger: 5
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_middle_home
+        name: mirror_matrix_middle_home
+        zone:
+            columns:
+                outer: null
+                pinky: null
+                ring:
+                    key:
+                        splay: 0
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 12
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            key:
+                stagger: 5
+            rows: {}
+            name: middle
+        row: home
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+mirror_matrix_middle_top:
+    x: 201.00046329999998
+    'y': 38.3732349
+    r: 15
+    meta:
+        stagger: 5
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_middle_top
+        name: mirror_matrix_middle_top
+        zone:
+            columns:
+                outer: null
+                pinky: null
+                ring:
+                    key:
+                        splay: 0
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 12
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            key:
+                stagger: 5
+            rows: {}
+            name: middle
+        row: top
+        mirrored: true
+        bind:
+            - 0
+            - 0
+            - 10
+            - 10
+mirror_matrix_index_bottom:
+    x: 194.0359107
+    'y': -9.0450634
+    r: 15
+    meta:
+        stagger: -6
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_index_bottom
+        name: mirror_matrix_index_bottom
+        zone:
+            columns:
+                outer: null
+                pinky: null
+                ring:
+                    key:
+                        splay: 0
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 12
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            key:
+                stagger: -6
+            rows: {}
+            name: index
+        row: bottom
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 0
+            - 0
+mirror_matrix_index_home:
+    x: 189.11834879999998
+    'y': 9.3075274
+    r: 15
+    meta:
+        stagger: -6
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_index_home
+        name: mirror_matrix_index_home
+        zone:
+            columns:
+                outer: null
+                pinky: null
+                ring:
+                    key:
+                        splay: 0
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 12
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            key:
+                stagger: -6
+            rows: {}
+            name: index
+        row: home
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+mirror_matrix_index_top:
+    x: 184.20078689999997
+    'y': 27.6601181
+    r: 15
+    meta:
+        stagger: -6
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_index_top
+        name: mirror_matrix_index_top
+        zone:
+            columns:
+                outer: null
+                pinky: null
+                ring:
+                    key:
+                        splay: 0
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 12
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            key:
+                stagger: -6
+            rows: {}
+            name: index
+        row: top
+        mirrored: true
+        bind:
+            - 0
+            - 0
+            - 10
+            - 10
+mirror_matrix_inner_bottom:
+    x: 175.68332009999997
+    'y': -13.9626252
+    r: 15
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_inner_bottom
+        name: mirror_matrix_inner_bottom
+        zone:
+            columns:
+                outer: null
+                pinky: null
+                ring:
+                    key:
+                        splay: 0
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 12
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            key:
+                stagger: 0
+            rows: {}
+            name: inner
+        row: bottom
+        mirrored: true
+        bind:
+            - 10
+            - 0
+            - 0
+            - 0
+mirror_matrix_inner_home:
+    x: 170.7657582
+    'y': 4.3899655
+    r: 15
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_inner_home
+        name: mirror_matrix_inner_home
+        zone:
+            columns:
+                outer: null
+                pinky: null
+                ring:
+                    key:
+                        splay: 0
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 12
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            key:
+                stagger: 0
+            rows: {}
+            name: inner
+        row: home
+        mirrored: true
+        bind:
+            - 10
+            - 0
+            - 10
+            - 10
+mirror_matrix_inner_top:
+    x: 165.84819629999998
+    'y': 22.7425562
+    r: 15
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_inner_top
+        name: mirror_matrix_inner_top
+        zone:
+            columns:
+                outer: null
+                pinky: null
+                ring:
+                    key:
+                        splay: 0
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 12
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: 0
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top: {}
+            name: matrix
+        col:
+            key:
+                stagger: 0
+            rows: {}
+            name: inner
+        row: top
+        mirrored: true
+        bind:
+            - 0
+            - 0
+            - 10
+            - 10
+mirror_thumbfan_near_thumb:
+    x: 187.36236269999998
+    'y': -30.5034826
+    r: 15
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_near_thumb
+        name: mirror_thumbfan_near_thumb
+        zone:
+            columns:
+                near: null
+                home:
+                    key:
+                        spread: 21.25
+                        splay: -28
+                        origin:
+                            - -11.75
+                            - -9
+                    rows: {}
+                    name: home
+                far:
+                    key:
+                        spread: 21.25
+                        splay: -28
+                        origin:
+                            - -9.5
+                            - -9
+                    rows: {}
+                    name: far
+            rows:
+                thumb: {}
+            name: thumbfan
+        col:
+            rows: {}
+            key: {}
+            name: near
+        row: thumb
+        mirrored: true
+        bind:
+            - 0
+            - 0
+            - 0
+            - 0
+mirror_thumbfan_home_thumb:
+    x: 165.78404769999997
+    'y': -43.0868934
+    r: 43
+    meta:
+        stagger: 0
+        spread: 21.25
+        splay: -28
+        origin:
+            - -11.75
+            - -9
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_home_thumb
+        name: mirror_thumbfan_home_thumb
+        zone:
+            columns:
+                near: null
+                home:
+                    key:
+                        spread: 21.25
+                        splay: -28
+                        origin:
+                            - -11.75
+                            - -9
+                    rows: {}
+                    name: home
+                far:
+                    key:
+                        spread: 21.25
+                        splay: -28
+                        origin:
+                            - -9.5
+                            - -9
+                    rows: {}
+                    name: far
+            rows:
+                thumb: {}
+            name: thumbfan
+        col:
+            key:
+                spread: 21.25
+                splay: -28
+                origin:
+                    - -11.75
+                    - -9
+            rows: {}
+            name: home
+        row: thumb
+        mirrored: true
+        bind:
+            - 0
+            - 0
+            - 0
+            - 0
+mirror_thumbfan_far_thumb:
+    x: 151.72606209999998
+    'y': -63.7348706
+    r: 71
+    meta:
+        stagger: 0
+        spread: 21.25
+        splay: -28
+        origin:
+            - -9.5
+            - -9
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_far_thumb
+        name: mirror_thumbfan_far_thumb
+        zone:
+            columns:
+                near: null
+                home:
+                    key:
+                        spread: 21.25
+                        splay: -28
+                        origin:
+                            - -11.75
+                            - -9
+                    rows: {}
+                    name: home
+                far:
+                    key:
+                        spread: 21.25
+                        splay: -28
+                        origin:
+                            - -9.5
+                            - -9
+                    rows: {}
+                    name: far
+            rows:
+                thumb: {}
+            name: thumbfan
+        col:
+            key:
+                spread: 21.25
+                splay: -28
+                origin:
+                    - -9.5
+                    - -9
+            rows: {}
+            name: far
+        row: thumb
+        mirrored: true
+        bind:
+            - 0
+            - 0
+            - 0
+            - 0
