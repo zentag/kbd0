@@ -1,15 +1,25 @@
 meta:
   engine: 4.1.0
+units:
+  $default_width: 18
+  $default_height: 17
+  kx: cx
+  ky: cy
+  p: 2
+  px: kx + p
+  py: ky + p
 points:
   zones:
     matrix:
+      key:
+        padding: cy
+        spread: cx
       anchor:
         rotate: 5
       columns:
         outer:
         pinky:
         ring:
-          key.splay: 0
           key.origin: [-12, -19]
           key.stagger: 12
         middle:
@@ -42,3 +52,55 @@ points:
   mirror:
     ref: matrix_pinky_home
     distance: 223.7529778
+outlines:
+  left:
+    - what: polygon
+      operation: stack
+      points:
+        - ref: matrix_outer_top
+          shift: [-0.5px, 0.5py]
+        - ref: matrix_outer_bottom
+          shift: [-.5px, -.5py]
+        - ref: matrix_pinky_bottom
+          shift: [.5px,-.5py]
+        - ref: matrix_ring_bottom
+          shift: [.5px,-.5py]
+        - ref: matrix_index_bottom
+          shift: [-.5px,-.5py]
+        - ref: thumbfan_near_thumb
+          shift: [-.5px,-.5py]
+        - ref: thumbfan_near_thumb
+          shift: [.5px,-.5py]
+        - ref: thumbfan_home_thumb
+          shift: [-.5px,-.5py]
+        - ref: thumbfan_home_thumb
+          shift: [.5px,-.5py]
+        - ref: thumbfan_far_thumb
+          shift: [-.5px,-.5py]
+        - ref: thumbfan_far_thumb
+          shift: [.5px,-.5py]
+        - ref: thumbfan_far_thumb
+          shift: [.5px,.5py]
+        - ref: thumbfan_far_thumb
+          shift: [-.5px,.5py]
+        - ref: thumbfan_home_thumb
+          shift: [.5px,.5py]
+        - ref: thumbfan_home_thumb
+          shift: [-.5px,.5py]
+        - ref: matrix_inner_bottom
+          shift: [.5px,-.5py]
+        - ref: matrix_inner_top
+          shift: [.5px,.5py]
+        - ref: matrix_index_top
+          shift: [-.5px+p,.5py]
+        - ref: matrix_middle_top
+          shift: [.5px,.5py]
+        - ref: matrix_middle_top
+          shift: [-.5px,.5py]
+        - ref: matrix_ring_top
+          shift: [.5px-p,.5py]
+        - ref: matrix_ring_top
+          shift: [-.5px,.5py]
+        - ref: matrix_pinky_top
+          shift: [.5px-p,.5py]
+      
