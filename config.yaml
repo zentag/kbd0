@@ -8,6 +8,7 @@ units:
   p: 2
   px: kx + p
   py: ky + p
+  WT: 2
 points:
   zones:
     matrix:
@@ -53,7 +54,7 @@ points:
     ref: matrix_pinky_home
     distance: 223.7529778
 outlines:
-  left:
+  board:
     - what: polygon
       operation: stack
       points:
@@ -105,11 +106,115 @@ outlines:
           shift: [-.5px,.5py]
         - ref: matrix_pinky_top
           shift: [.5px-p,.5py]
+  base:
+    - what: polygon
+      operation: stack
+      points:
+        - ref: matrix_outer_top
+          shift: [-0.5px-WT, 0.5py+WT]
+        - ref: matrix_outer_bottom
+          shift: [-.5px-WT, -.5py-WT]
+        - ref: matrix_pinky_bottom
+          shift: [.5px+WT,-.5py-WT]
+        - ref: matrix_ring_bottom
+          shift: [p-.5px+WT,-.5py-WT]
+        - ref: matrix_ring_bottom
+          shift: [.5px+WT,-.5py-WT]
+        - ref: matrix_middle_bottom
+          shift: [p-.5px+WT,-.5py-WT]
+        - ref: matrix_middle_bottom
+          shift: [.5px-p-WT,-.5py-WT]
+        - ref: matrix_index_bottom
+          shift: [-.5px-WT,-.5py-WT]
+        - ref: matrix_index_bottom
+          shift: [1-WT,-.5py-WT]
+        - ref: thumbfan_near_thumb
+          shift: [-.5px-WT,-.5py-WT]
+        - ref: thumbfan_near_thumb
+          shift: [.5px,-.5py-WT]
+        - ref: thumbfan_home_thumb
+          shift: [-.5px,-.5py-WT]
+        - ref: thumbfan_home_thumb
+          shift: [.5px,-.5py-WT]
+        - ref: thumbfan_far_thumb
+          shift: [-.5px,-.5py-WT]
+        - ref: thumbfan_far_thumb
+          shift: [.5px+WT,-.5py-WT]
+        - ref: thumbfan_far_thumb
+          shift: [.5px+WT,.5py-WT]
+        - ref: matrix_inner_bottom
+          shift: [.5px+56+WT,-.5py-WT]
+        - ref: matrix_inner_top
+          shift: [.5px+56+WT,.5py+WT]
+        - ref: matrix_index_top
+          shift: [-.5px+p+WT,.5py+WT]
+        - ref: matrix_middle_top
+          shift: [.5px+WT,.5py+WT]
+        - ref: matrix_middle_top
+          shift: [-.5px-WT,.5py+WT]
+        - ref: matrix_ring_top
+          shift: [.5px-p-WT,.5py+WT]
+        - ref: matrix_ring_top
+          shift: [-.5px-WT,.5py+WT]
+        - ref: matrix_pinky_top
+          shift: [.5px-p-WT,.5py+WT]
+  inner_base:
+    - what: polygon
+      operation: stack
+      points:
+        - ref: matrix_outer_top
+          shift: [-0.5px, 0.5py]
+        - ref: matrix_outer_bottom
+          shift: [-.5px, -.5py]
+        - ref: matrix_pinky_bottom
+          shift: [.5px,-.5py]
+        - ref: matrix_ring_bottom
+          shift: [p-.5px,-.5py]
+        - ref: matrix_ring_bottom
+          shift: [.5px,-.5py]
+        - ref: matrix_middle_bottom
+          shift: [p-.5px,-.5py]
+        - ref: matrix_middle_bottom
+          shift: [.5px-p,-.5py]
+        - ref: matrix_index_bottom
+          shift: [-.5px,-.5py]
+        - ref: matrix_index_bottom
+          shift: [1,-.5py]
+        - ref: thumbfan_near_thumb
+          shift: [-.5px,-.5py]
+        - ref: thumbfan_near_thumb
+          shift: [.5px,-.5py]
+        - ref: thumbfan_home_thumb
+          shift: [-.5px,-.5py]
+        - ref: thumbfan_home_thumb
+          shift: [.5px,-.5py]
+        - ref: thumbfan_far_thumb
+          shift: [-.5px,-.5py]
+        - ref: thumbfan_far_thumb
+          shift: [.5px,-.5py]
+        - ref: thumbfan_far_thumb
+          shift: [.5px,.5py]
+        - ref: matrix_inner_bottom
+          shift: [.5px+56,-.5py]
+        - ref: matrix_inner_top
+          shift: [.5px+56,.5py]
+        - ref: matrix_index_top
+          shift: [-.5px+p,.5py]
+        - ref: matrix_middle_top
+          shift: [.5px,.5py]
+        - ref: matrix_middle_top
+          shift: [-.5px,.5py]
+        - ref: matrix_ring_top
+          shift: [.5px-p,.5py]
+        - ref: matrix_ring_top
+          shift: [-.5px,.5py]
+        - ref: matrix_pinky_top
+          shift: [.5px-p,.5py]
 pcbs:
   left:
     outlines:
       main:
-        outline: left
+        outline: board
     footprints:
       choc_hotswap:
         what: choc
@@ -136,3 +241,27 @@ pcbs:
           ref: matrix_inner_top
           shift: [22,-10]
           rotate: -90
+cases:
+  _base:
+    - name: base
+      extrude: 2
+  _walls_subtract:
+    - name: inner_base
+      extrude: 2
+  _walls_add:
+    - name: base
+      extrude: 4
+  _walls:
+    - what: case
+      name: _walls_add
+      operation: add
+    - what: case
+      name: _walls_subtract
+      operation: subtract
+  main:
+    - what: case
+      name: _base
+      operation: add
+    - what: case
+      name: _walls
+      operation: add
