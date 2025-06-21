@@ -73,6 +73,8 @@ outlines:
           shift: [.5px-p,-.5py]
         - ref: matrix_index_bottom
           shift: [-.5px,-.5py]
+        - ref: matrix_index_bottom
+          shift: [1,-.5py]
         - ref: thumbfan_near_thumb
           shift: [-.5px,-.5py]
         - ref: thumbfan_near_thumb
@@ -88,9 +90,9 @@ outlines:
         - ref: thumbfan_far_thumb
           shift: [.5px,.5py]
         - ref: matrix_inner_bottom
-          shift: [2px,-.5py]
+          shift: [1.75px,-.5py]
         - ref: matrix_inner_top
-          shift: [2px,.5py]
+          shift: [1.75px,.5py]
         - ref: matrix_index_top
           shift: [-.5px+p,.5py]
         - ref: matrix_middle_top
@@ -132,5 +134,5 @@ pcbs:
           orientation: "down"
         where:
           ref: matrix_inner_top
-          shift: [0,0]
-          rotate: 0
+          shift: [22,-10]
+          rotate: -90
