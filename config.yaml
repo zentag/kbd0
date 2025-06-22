@@ -237,8 +237,8 @@ pcbs:
         what: xiao-ble
         where:
           ref: matrix_inner_top
-          shift: [22,-10]
-          rotate: -90
+          shift: [22,-2]
+          rotate: 0
 cases:
   base:
     - name: base
