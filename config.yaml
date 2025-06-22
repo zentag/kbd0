@@ -233,10 +233,8 @@ pcbs:
           to: "{{row_net}}"
         adjust:
           shift: [0, -5]
-      promicro:
-        what: promicro
-        params:
-          orientation: "down"
+      MCU:
+        what: xiao-ble
         where:
           ref: matrix_inner_top
           shift: [22,-10]
