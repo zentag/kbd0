@@ -242,16 +242,16 @@ pcbs:
           shift: [22,-10]
           rotate: -90
 cases:
-  _base:
+  base:
     - name: base
       extrude: 2
   _walls_subtract:
     - name: inner_base
-      extrude: 2
+      extrude: 10
   _walls_add:
     - name: base
-      extrude: 4
-  _walls:
+      extrude: 10
+  walls:
     - what: case
       name: _walls_add
       operation: add
@@ -260,8 +260,8 @@ cases:
       operation: subtract
   main:
     - what: case
-      name: _base
+      name: base
       operation: add
     - what: case
-      name: _walls
+      name: walls
       operation: add
