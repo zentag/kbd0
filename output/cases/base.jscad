@@ -1,5 +1,5 @@
 function board_extrude_2_outline_fn(){
-    return new CSG.Path2D([[122.4509257,-2.7876174],[131.5095922,31.0197867]]).appendPoint([5.9392348,64.6662625]).appendPoint([-13.4721936,-7.7781746]).appendPoint([68.6315017,-29.7777934]).appendPoint([59.5367487,-51.7468737]).appendPoint([92.3028306,-74.6899311]).appendPoint([115.245888,-41.9238493]).appendPoint([97.5585085,-26.1407236]).appendPoint([105.0642608,1.8711254]).appendPoint([122.4509257,-2.7876174]).close().innerToCAG()
+    return new CSG.Path2D([[127.7474249,9.2517803],[133.4414439,30.5021486]]).appendPoint([5.9392348,64.6662625]).appendPoint([-13.4721936,-7.7781746]).appendPoint([68.6315017,-29.7777934]).appendPoint([59.5367487,-51.7468737]).appendPoint([92.3028306,-74.6899311]).appendPoint([115.245888,-41.9238493]).appendPoint([97.5585085,-26.1407236]).appendPoint([108.4289084,14.4281612]).appendPoint([127.7474249,9.2517803]).close().innerToCAG()
 .extrude({ offset: [0, 0, 2] });
 }
 

@@ -59,7 +59,7 @@ outlines:
       operation: stack
       points:
         - ref: matrix_middle_top
-          shift: [2.5kx+20, .5py]
+          shift: [2.5kx+22, .5py]
         - ref: matrix_middle_top
           shift: [-3.5kx-p, .5py]
         - ref: matrix_outer_bottom
@@ -74,10 +74,10 @@ outlines:
           shift: [.5px,.5py]
         - ref: matrix_inner_bottom
           shift: [.5px,-.5py]
-        - ref: matrix_inner_home
-          shift: [.5px,0]
-        - ref: matrix_inner_home
-          shift: [.5kx+20,0]
+        - ref: matrix_inner_top
+          shift: [.5px,-5]
+        - ref: matrix_inner_top
+          shift: [.5kx+22,-5]
 
      
   
@@ -104,6 +104,12 @@ pcbs:
           to: "{{row_net}}"
         adjust:
           shift: [0, -5]
+      MCU:
+        what: xiao-ble
+        where:
+          ref: matrix_middle_top
+          shift: [2.5kx+11,0]
+          rotate: 0
 cases:
   base:
     - name: board
@@ -118,3 +124,4 @@ cases:
     - what: case
       name: sw_holes
       operation: subtract
+
