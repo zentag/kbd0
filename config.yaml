@@ -2,26 +2,24 @@ meta:
   engine: 4.1.0
 units:
   $default_width: 18
-  $default_height: 17
+  $default_height: 18
   kx: cx
-  ky: cy
+  ky: cy + 1
   p: 2
   px: kx + p * 2 
   py: ky + p * 2
-  WT: 2
 points:
   zones:
     matrix:
       key:
-        padding: cy
-        spread: cx
+        padding: ky
+        spread: kx
       anchor:
         rotate: 5
       columns:
         outer:
         pinky:
         ring:
-          key.origin: [-12, -19]
           key.stagger: 12
         middle:
           key.stagger: 5
@@ -35,8 +33,8 @@ points:
         top:
     thumbcluster:
       key: 
-        padding: cy
-        spread: cx
+        padding: ky
+        spread: kx
       anchor:
         ref: matrix_inner_bottom
         shift: [-5, -39]
@@ -52,12 +50,16 @@ points:
     ref: matrix_pinky_home
     distance: 300
 outlines:
+  switch_holes:
+    - what: rectangle
+      where: true
+      size: [13.8, 13.8]
   board:
     - what: polygon
       operation: stack
       points:
         - ref: matrix_middle_top
-          shift: [2.5kx+p, .5py]
+          shift: [2.5kx+20, .5py]
         - ref: matrix_middle_top
           shift: [-3.5kx-p, .5py]
         - ref: matrix_outer_bottom
@@ -72,6 +74,10 @@ outlines:
           shift: [.5px,.5py]
         - ref: matrix_inner_bottom
           shift: [.5px,-.5py]
+        - ref: matrix_inner_home
+          shift: [.5px,0]
+        - ref: matrix_inner_home
+          shift: [.5kx+20,0]
 
      
   
@@ -98,13 +104,17 @@ pcbs:
           to: "{{row_net}}"
         adjust:
           shift: [0, -5]
-      MCU:
-        what: xiao-ble
-        where:
-          ref: matrix_inner_top
-          shift: [22,-2]
-          rotate: 0
 cases:
   base:
     - name: board
       extrude: 2
+  sw_holes:
+    - name: switch_holes
+      extrude: 2
+  switchplate:
+    - what: case
+      name: base
+      operation: add
+    - what: case
+      name: sw_holes
+      operation: subtract
