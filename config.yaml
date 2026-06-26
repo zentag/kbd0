@@ -33,11 +33,11 @@ points:
           key.column_net: P5
       rows:
         bottom:
-          key.row_net: P6
+          row_net: P6
         home:
-          key.row_net: P7
+          row_net: P7
         top:
-          key.row_net: P8
+          row_net: P8
     thumbcluster:
       key: 
         padding: ky
@@ -52,9 +52,9 @@ points:
           key.column_net: P10
       rows:
         bottom:
-          key.row_net: P6
+          row_net: P6
         top:
-          key.row_net: P7
+          row_net: P7
 outlines:
   switch_holes:
     - what: rectangle
