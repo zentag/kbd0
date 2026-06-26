@@ -14,23 +14,30 @@ points:
       key:
         padding: ky
         spread: kx
-      anchor:
-        rotate: 5
       columns:
         outer:
+          key.column_net: P0
         pinky:
+          key.column_net: P1
         ring:
           key.stagger: 12
+          key.column_net: P2
         middle:
           key.stagger: 5
+          key.column_net: P3
         index:
           key.stagger: -6
+          key.column_net: P4
         inner:
           key.stagger: 0
+          key.column_net: P5
       rows:
         bottom:
+          key.row_net: P6
         home:
+          key.row_net: P7
         top:
+          key.row_net: P8
     thumbcluster:
       key: 
         padding: ky
@@ -38,17 +45,16 @@ points:
       anchor:
         ref: matrix_inner_bottom
         shift: [-5, -39]
-        rotate: -20
       columns:
         left:
+          key.column_net: P9
         right:
+          key.column_net: P10
       rows:
         bottom:
+          key.row_net: P6
         top:
-  rotate: -20
-  mirror:
-    ref: matrix_pinky_home
-    distance: 300
+          key.row_net: P7
 outlines:
   switch_holes:
     - what: rectangle
