@@ -45,6 +45,7 @@ points:
       anchor:
         ref: matrix_inner_bottom
         shift: [-5, -39]
+        rotate: -20
       columns:
         left:
           key.column_net: P9
