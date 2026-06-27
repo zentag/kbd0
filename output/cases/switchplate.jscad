@@ -1,5 +1,5 @@
 function base_extrude_2_outline_fn(){
-    return new CSG.Path2D([[103,0.5],[103,61.5]]).appendPoint([-11,61.5]).appendPoint([-11,-10.5]).appendPoint([74,-10.5]).appendPoint([78.2545927,-14.3710059]).appendPoint([71.0721697,-34.1045509]).appendPoint([108.6598745,-47.7853567]).appendPoint([121.6566399,-12.0770371]).appendPoint([104.7421727,-5.9206745]).appendPoint([103,0.5]).close().innerToCAG()
+    return new CSG.Path2D([[101,0.5],[101,61.5]]).appendPoint([-11,61.5]).appendPoint([-11,-10.5]).appendPoint([74,-10.5]).appendPoint([78.2545927,-14.3710059]).appendPoint([71.0721697,-34.1045509]).appendPoint([108.6598745,-47.7853567]).appendPoint([121.6566399,-12.0770371]).appendPoint([104.7421727,-5.9206745]).appendPoint([101,0.5]).close().innerToCAG()
 .extrude({ offset: [0, 0, 2] });
 }
 

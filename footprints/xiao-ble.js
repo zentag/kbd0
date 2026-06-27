@@ -41,7 +41,15 @@ module.exports = {
       (fp_rect (start 3.350197 -6.785813) (end 5.128197 -4.118813) (layer Dwgs.User) (width 0.12) (fill none))
       (fp_rect (start -5.285811 -6.785813) (end -3.507811 -4.118813) (layer Dwgs.User) (width 0.12) (fill none))
       (fp_rect (start 3.350197 -10.849813) (end 5.128197 -8.182813) (layer Dwgs.User) (width 0.12) (fill none))
-
+      ${"" /* cutout for bat */}
+      (fp_rect
+        (start -6 -3)
+        (end 0 3)
+        (stroke (width 0.12) (type default))
+        (fill none)
+        (layer Edge.Cuts)
+      )
+        
       ${"" /* pin definitions */}
       (pad "1" thru_hole oval (at -7.62 -7.62 ${p.rot}) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) ${p.P0.str})
       (pad "2" thru_hole oval (at -7.62 -5.08 ${p.rot}) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) ${p.P1.str})
@@ -61,4 +69,3 @@ module.exports = {
     )
   `,
 };
-

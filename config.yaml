@@ -33,11 +33,11 @@ points:
           key.column_net: P5
       rows:
         bottom:
-          row_net: P6
-        home:
           row_net: P7
-        top:
+        home:
           row_net: P8
+        top:
+          row_net: P6
     thumbcluster:
       key: 
         padding: ky
@@ -53,9 +53,9 @@ points:
           key.column_net: P10
       rows:
         bottom:
-          row_net: P6
-        top:
           row_net: P7
+        top:
+          row_net: P8
 outlines:
   switch_holes:
     - what: rectangle
@@ -66,7 +66,7 @@ outlines:
       operation: stack
       points:
         - ref: matrix_middle_top
-          shift: [2.5kx+p+2, .5py]
+          shift: [2.5kx+p, .5py]
         - ref: matrix_middle_top
           shift: [-3.5kx-p, .5py]
         - ref: matrix_outer_bottom
@@ -84,15 +84,15 @@ outlines:
         - ref: thumbcluster_left_top
           shift: [.5px,.5py]
         - ref: matrix_inner_bottom
-          shift: [.5px+2,-.5py]
+          shift: [.5px,-.5py]
   mcu:
     - what: polygon
       operation: stack
       points:
         - ref: matrix_inner_home
-          shift: [.5px,5]
+          shift: [.5px,10]
         - ref: matrix_inner_home
-          shift: [.5kx+22,5]
+          shift: [.5kx+22,10]
         - ref: matrix_middle_top 
           shift: [2.5kx+22, .5py]
         - ref: matrix_middle_top

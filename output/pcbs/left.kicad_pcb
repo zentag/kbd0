@@ -115,9 +115,9 @@
 (net 31 "P10")
 (net 32 "right_bottom")
 (net 33 "right_top")
-(net 34 "P6")
+(net 34 "P8")
 (net 35 "P7")
-(net 36 "P8")
+(net 36 "P6")
 (net 37 "RAW5V")
 (net 38 "RAW3V3")
 
@@ -5088,7 +5088,7 @@
         )
       )
     
-      (pad "1" thru_hole rect (at -1.65 0 0) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 34 "P6"))
+      (pad "1" thru_hole rect (at -1.65 0 0) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 34 "P8"))
       (pad "2" thru_hole rect (at 1.65 0 0) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 2 "outer_bottom"))
         
     )
@@ -5176,7 +5176,7 @@
         )
       )
     
-      (pad "1" thru_hole rect (at -1.65 0 0) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 36 "P8"))
+      (pad "1" thru_hole rect (at -1.65 0 0) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 36 "P6"))
       (pad "2" thru_hole rect (at 1.65 0 0) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 7 "outer_top"))
         
     )
@@ -5220,7 +5220,7 @@
         )
       )
     
-      (pad "1" thru_hole rect (at -1.65 0 0) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 34 "P6"))
+      (pad "1" thru_hole rect (at -1.65 0 0) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 34 "P8"))
       (pad "2" thru_hole rect (at 1.65 0 0) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 9 "pinky_bottom"))
         
     )
@@ -5308,7 +5308,7 @@
         )
       )
     
-      (pad "1" thru_hole rect (at -1.65 0 0) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 36 "P8"))
+      (pad "1" thru_hole rect (at -1.65 0 0) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 36 "P6"))
       (pad "2" thru_hole rect (at 1.65 0 0) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 11 "pinky_top"))
         
     )
@@ -5352,7 +5352,7 @@
         )
       )
     
-      (pad "1" thru_hole rect (at -1.65 0 0) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 34 "P6"))
+      (pad "1" thru_hole rect (at -1.65 0 0) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 34 "P8"))
       (pad "2" thru_hole rect (at 1.65 0 0) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 13 "ring_bottom"))
         
     )
@@ -5440,7 +5440,7 @@
         )
       )
     
-      (pad "1" thru_hole rect (at -1.65 0 0) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 36 "P8"))
+      (pad "1" thru_hole rect (at -1.65 0 0) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 36 "P6"))
       (pad "2" thru_hole rect (at 1.65 0 0) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 15 "ring_top"))
         
     )
@@ -5484,7 +5484,7 @@
         )
       )
     
-      (pad "1" thru_hole rect (at -1.65 0 0) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 34 "P6"))
+      (pad "1" thru_hole rect (at -1.65 0 0) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 34 "P8"))
       (pad "2" thru_hole rect (at 1.65 0 0) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 17 "middle_bottom"))
         
     )
@@ -5572,7 +5572,7 @@
         )
       )
     
-      (pad "1" thru_hole rect (at -1.65 0 0) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 36 "P8"))
+      (pad "1" thru_hole rect (at -1.65 0 0) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 36 "P6"))
       (pad "2" thru_hole rect (at 1.65 0 0) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 19 "middle_top"))
         
     )
@@ -5616,7 +5616,7 @@
         )
       )
     
-      (pad "1" thru_hole rect (at -1.65 0 0) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 34 "P6"))
+      (pad "1" thru_hole rect (at -1.65 0 0) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 34 "P8"))
       (pad "2" thru_hole rect (at 1.65 0 0) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 21 "index_bottom"))
         
     )
@@ -5704,7 +5704,7 @@
         )
       )
     
-      (pad "1" thru_hole rect (at -1.65 0 0) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 36 "P8"))
+      (pad "1" thru_hole rect (at -1.65 0 0) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 36 "P6"))
       (pad "2" thru_hole rect (at 1.65 0 0) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 23 "index_top"))
         
     )
@@ -5748,7 +5748,7 @@
         )
       )
     
-      (pad "1" thru_hole rect (at -1.65 0 0) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 34 "P6"))
+      (pad "1" thru_hole rect (at -1.65 0 0) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 34 "P8"))
       (pad "2" thru_hole rect (at 1.65 0 0) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 25 "inner_bottom"))
         
     )
@@ -5836,7 +5836,7 @@
         )
       )
     
-      (pad "1" thru_hole rect (at -1.65 0 0) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 36 "P8"))
+      (pad "1" thru_hole rect (at -1.65 0 0) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 36 "P6"))
       (pad "2" thru_hole rect (at 1.65 0 0) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 27 "inner_top"))
         
     )
@@ -5880,7 +5880,7 @@
         )
       )
     
-      (pad "1" thru_hole rect (at -1.65 0 -20) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 34 "P6"))
+      (pad "1" thru_hole rect (at -1.65 0 -20) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 34 "P8"))
       (pad "2" thru_hole rect (at 1.65 0 -20) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 29 "left_bottom"))
         
     )
@@ -5968,7 +5968,7 @@
         )
       )
     
-      (pad "1" thru_hole rect (at -1.65 0 -20) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 34 "P6"))
+      (pad "1" thru_hole rect (at -1.65 0 -20) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 34 "P8"))
       (pad "2" thru_hole rect (at 1.65 0 -20) (size 0.9 1.2) (drill 0.3) (layers "*.Cu" "*.Paste" "*.Mask") (net 32 "right_bottom"))
         
     )
@@ -6035,7 +6035,15 @@
       (fp_rect (start 3.350197 -6.785813) (end 5.128197 -4.118813) (layer Dwgs.User) (width 0.12) (fill none))
       (fp_rect (start -5.285811 -6.785813) (end -3.507811 -4.118813) (layer Dwgs.User) (width 0.12) (fill none))
       (fp_rect (start 3.350197 -10.849813) (end 5.128197 -8.182813) (layer Dwgs.User) (width 0.12) (fill none))
-
+      
+      (fp_rect
+        (start -6 -3)
+        (end 0 3)
+        (stroke (width 0.12) (type default))
+        (fill none)
+        (layer Edge.Cuts)
+      )
+        
       
       (pad "1" thru_hole oval (at -7.62 -7.62 0) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) (net 1 "P0"))
       (pad "2" thru_hole oval (at -7.62 -5.08 0) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) (net 8 "P1"))
@@ -6043,9 +6051,9 @@
       (pad "4" thru_hole oval (at -7.62 0 0) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) (net 16 "P3"))
       (pad "5" thru_hole oval (at -7.62 2.54 0) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) (net 20 "P4"))
       (pad "6" thru_hole oval (at -7.62 5.08 0) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) (net 24 "P5"))
-      (pad "7" thru_hole oval (at -7.62 7.62 0) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) (net 34 "P6"))
+      (pad "7" thru_hole oval (at -7.62 7.62 0) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) (net 36 "P6"))
       (pad "8" thru_hole oval (at 7.62 7.62 180) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) (net 35 "P7"))
-      (pad "9" thru_hole oval (at 7.62 5.08 180) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) (net 36 "P8"))
+      (pad "9" thru_hole oval (at 7.62 5.08 180) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) (net 34 "P8"))
       (pad "10" thru_hole oval (at 7.62 2.54 180) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) (net 28 "P9"))
       (pad "11" thru_hole oval (at 7.62 0 180) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) (net 31 "P10"))
       (pad "12" thru_hole oval (at 7.62 -2.54 180) (size 2.75 1.8) (drill 1 (offset -0.475 0)) (layers *.Cu *.Mask) (net 38 "RAW3V3"))
@@ -6054,7 +6062,7 @@
 
     )
   
-  (gr_line (start 103 -0.5) (end 103 -33) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+  (gr_line (start 101 -0.5) (end 101 -38) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_line (start -11 -61.5) (end 121 -61.5) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_line (start -11 -61.5) (end -11 10.5) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_line (start -11 10.5) (end 74 10.5) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
@@ -6063,9 +6071,9 @@
 (gr_line (start 71.0721697 34.1045509) (end 108.6598745 47.7853567) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_line (start 108.6598745 47.7853567) (end 121.6566399 12.077037100000002) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_line (start 121.6566399 12.077037100000002) (end 104.7421727 5.9206745000000005) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 104.7421727 5.9206745000000005) (end 103 -0.5) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 103 -33) (end 121 -33) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 121 -33) (end 121 -61.5) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_line (start 104.7421727 5.9206745000000005) (end 101 -0.5) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_line (start 101 -38) (end 121 -38) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_line (start 121 -38) (end 121 -61.5) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 
 )
 
