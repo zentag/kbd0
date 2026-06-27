@@ -2,9 +2,9 @@ meta:
   engine: 4.1.0
 units:
   $default_width: 18
-  $default_height: 18
+  $default_height: 17
   kx: cx
-  ky: cy + 1
+  ky: cy
   p: 2
   px: kx + p * 2 
   py: ky + p * 2
@@ -61,12 +61,12 @@ outlines:
     - what: rectangle
       where: true
       size: [13.8, 13.8]
-  board:
+  base:
     - what: polygon
       operation: stack
       points:
         - ref: matrix_middle_top
-          shift: [2.5kx+22, .5py]
+          shift: [2.5kx+p+2, .5py]
         - ref: matrix_middle_top
           shift: [-3.5kx-p, .5py]
         - ref: matrix_outer_bottom
@@ -74,17 +74,36 @@ outlines:
         - ref: matrix_pinky_bottom
           shift: [3kx+p,-.5py]
         - ref: thumbcluster_left_bottom
+          shift: [-.5px,.5py]
+        - ref: thumbcluster_left_bottom
           shift: [-.5px,-.5py]
         - ref: thumbcluster_right_bottom
           shift: [.5px,-.5py]
         - ref: thumbcluster_right_top
           shift: [.5px,.5py]
+        - ref: thumbcluster_left_top
+          shift: [.5px,.5py]
         - ref: matrix_inner_bottom
-          shift: [.5px,-.5py]
-        - ref: matrix_inner_top
-          shift: [.5px,-5]
-        - ref: matrix_inner_top
-          shift: [.5kx+22,-5]
+          shift: [.5px+2,-.5py]
+  mcu:
+    - what: polygon
+      operation: stack
+      points:
+        - ref: matrix_inner_home
+          shift: [.5px,5]
+        - ref: matrix_inner_home
+          shift: [.5kx+22,5]
+        - ref: matrix_middle_top 
+          shift: [2.5kx+22, .5py]
+        - ref: matrix_middle_top
+          shift: [2.5kx+p, .5py]
+  board:
+    - what: outline
+      operation: add
+      name: base
+    - what: outline
+      operation: add
+      name: mcu
 
      
   
@@ -119,7 +138,7 @@ pcbs:
           rotate: 0
 cases:
   base:
-    - name: board
+    - name: base
       extrude: 2
   sw_holes:
     - name: switch_holes
